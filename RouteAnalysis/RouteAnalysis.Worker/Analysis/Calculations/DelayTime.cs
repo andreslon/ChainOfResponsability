@@ -17,6 +17,8 @@ namespace RouteAnalysis.Worker.Analysis.Calculations
         {
             if (true)
             {
+                eventResult.DelayTime = 10;
+                 
                 //Logica de tiempo de retraso
                 NextCalculation.Calculate(eventResult, itinerary, alarms);
             }

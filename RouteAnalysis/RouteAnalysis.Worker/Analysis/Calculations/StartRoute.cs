@@ -25,6 +25,7 @@ namespace RouteAnalysis.Worker.Analysis.Calculations
                 }
                 else
                 {
+                    eventResult.IsStarted = true;
                     NextCalculation.Calculate(eventResult, itinerary, alarms);
                 }
             }
